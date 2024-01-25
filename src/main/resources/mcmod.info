@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "prehistoricnaturedeco",
+    "name": "Prehistoric Nature Decorations",
+    "description": "Adds some more complex decoration blocks to Prehistoric Nature",
+    "version": "1.0",
+    "credits": "Aecht Rob",
+    "logoFile": "assets/prehistoricnaturedeco/textures/packlogo.png",
+    "mcversion": "1.12.2",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/prehistoricnaturedeco",
+    "updateUrl": "",
+    "authorList": [
+      "Aecht Rob"
+    ],
+    "dependencies": ["lepidodendron@[59.0,)"],
+    "dependants": [],
+    "requiredMods": ["lepidodendron@[59.0,)"],
+    "useDependencyInformation": "true"
+  }
+]

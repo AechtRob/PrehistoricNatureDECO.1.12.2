@@ -1,0 +1,7 @@
+{
+  "parent": "lepidodendron:block/bridge",
+  "textures": {
+    "wood": "lepidodendron:blocks/araucarioxylon_wood",
+    "metal": "blocks/quartz_block_side"
+  }
+}
