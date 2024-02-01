@@ -31,7 +31,7 @@ public class PrehistoricNatureDecoMod {
 	public static final String MODID = "prehistoricnaturedeco";
 	public static final String NAME = "Prehistoric Nature Decorations";
 	public static final String VERSION = "1.0";
-	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("prehistoricnaturedeco:a");
+	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("pndeco:a");
     @SidedProxy(clientSide = "net.prehistoricnaturedeco.ClientProxyPrehistoricNatureDecoMod", serverSide = "net.prehistoricnaturedeco.ServerProxyPrehistoricNatureDecoMod")
 	public static IProxyPrehistoricNatureDecoMod proxy;
 	@Mod.Instance(MODID)
