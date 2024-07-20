@@ -1,0 +1,9 @@
+{
+	"parent": "lepidodendron:block/planter2",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"metal": "blocks/redstone_block",
+		"plank": "lepidodendron:blocks/nothofagus_planks"
+	}
+}
+

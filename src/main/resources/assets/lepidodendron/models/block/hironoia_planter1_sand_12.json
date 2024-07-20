@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/sand",
+		"side": "lepidodendron:blocks/hironoia_trapdoor",
+		"metal": "blocks/redstone_block",
+		"plank": "lepidodendron:blocks/hironoia_planks"
+	}
+}
+

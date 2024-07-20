@@ -1,0 +1,9 @@
+{
+	"parent": "lepidodendron:block/planter2",
+	"textures": {
+		"dirt": "blocks/sand",
+		"metal": "lepidodendron:blocks/diaphorodendron_planks",
+		"plank": "lepidodendron:blocks/diaphorodendron_planks"
+	}
+}
+

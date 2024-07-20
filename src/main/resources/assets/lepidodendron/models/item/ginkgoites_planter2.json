@@ -1,0 +1,10 @@
+{
+  "parent": "lepidodendron:block/planter2",
+  "textures": {
+    "dirt": "blocks/dirt",
+    "metal": "lepidodendron:blocks/ginkgoites_planks",
+    "plank": "lepidodendron:blocks/ginkgoites_planks"
+  }
+}
+
+

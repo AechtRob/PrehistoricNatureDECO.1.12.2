@@ -1,0 +1,9 @@
+{
+  "parent": "lepidodendron:block/planter2",
+  "textures": {
+    "dirt": "blocks/sand",
+    "metal": "blocks/planks_spruce",
+    "plank": "blocks/planks_spruce"
+  }
+}
+

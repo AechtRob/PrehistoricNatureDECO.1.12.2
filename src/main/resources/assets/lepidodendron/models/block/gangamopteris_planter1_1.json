@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"side": "lepidodendron:blocks/gangamopteris_trapdoor",
+		"metal": "lepidodendron:blocks/iron_bridge",
+		"plank": "lepidodendron:blocks/gangamopteris_planks"
+	}
+}
+

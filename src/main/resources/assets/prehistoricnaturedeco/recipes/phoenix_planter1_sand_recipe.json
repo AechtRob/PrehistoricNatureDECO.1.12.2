@@ -1,0 +1,29 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:phoenix_trapdoor"
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "sand"
+ },
+ "5": {
+ "item": "lepidodendron:phoenix_trapdoor"
+ },
+ "7": {
+ "item": "lepidodendron:phoenix_slab",
+ "data": 0
+ }
+ },
+ "result": {
+ "item": "lepidodendron:phoenix_planter1_sand",
+ "count": 3
+ }
+}

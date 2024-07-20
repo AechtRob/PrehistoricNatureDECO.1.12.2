@@ -1,0 +1,31 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "minecraft:wooden_slab",
+ "data": 3
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "sand"
+ },
+ "5": {
+ "item": "minecraft:wooden_slab",
+ "data": 3
+ },
+ "7": {
+ "item": "minecraft:wooden_slab",
+ "data": 3
+ }
+ },
+ "result": {
+ "item": "lepidodendron:jungle_planter2_sand",
+ "count": 3
+ }
+}

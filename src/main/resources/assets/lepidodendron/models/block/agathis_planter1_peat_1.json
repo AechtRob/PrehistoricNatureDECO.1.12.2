@@ -1,0 +1,9 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"side": "lepidodendron:blocks/agathis_trapdoor",
+		"metal": "lepidodendron:blocks/iron_bridge",
+		"plank": "lepidodendron:blocks/agathis_planks"
+	}
+}

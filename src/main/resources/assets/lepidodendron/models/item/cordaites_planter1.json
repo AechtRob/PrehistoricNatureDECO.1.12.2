@@ -1,0 +1,11 @@
+{
+  "parent": "lepidodendron:block/planter1",
+  "textures": {
+    "dirt": "blocks/dirt",
+    "side": "lepidodendron:blocks/cordaites_trapdoor",
+    "metal": "lepidodendron:blocks/cordaites_planks",
+    "plank": "lepidodendron:blocks/cordaites_planks"
+  }
+}
+
+

@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"side": "lepidodendron:blocks/cephalotaxus_trapdoor",
+		"metal": "lepidodendron:blocks/cephalotaxus_planks",
+		"plank": "lepidodendron:blocks/cephalotaxus_planks"
+	}
+}
+

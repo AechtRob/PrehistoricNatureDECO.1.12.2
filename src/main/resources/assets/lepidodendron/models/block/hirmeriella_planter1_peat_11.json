@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"side": "lepidodendron:blocks/hirmeriella_trapdoor",
+		"metal": "lepidodendron:blocks/araucarioxylon_wood_petrified",
+		"plank": "lepidodendron:blocks/hirmeriella_planks"
+	}
+}
+

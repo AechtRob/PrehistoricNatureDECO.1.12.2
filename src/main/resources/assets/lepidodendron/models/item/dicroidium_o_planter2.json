@@ -1,0 +1,10 @@
+{
+  "parent": "lepidodendron:block/planter2",
+  "textures": {
+    "dirt": "blocks/dirt",
+    "metal": "lepidodendron:blocks/dicroidium_o_planks",
+    "plank": "lepidodendron:blocks/dicroidium_o_planks"
+  }
+}
+
+

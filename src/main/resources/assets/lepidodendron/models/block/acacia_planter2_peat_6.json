@@ -1,0 +1,8 @@
+{
+	"parent": "lepidodendron:block/planter2",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"metal": "lepidodendron:blocks/baltic_amber",
+		"plank": "blocks/planks_acacia"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "lepidodendron:block/planter1",
+  "textures": {
+    "dirt": "blocks/dirt",
+    "side": "lepidodendron:blocks/thuja_trapdoor",
+    "metal": "lepidodendron:blocks/thuja_planks",
+    "plank": "lepidodendron:blocks/thuja_planks"
+  }
+}
+
+

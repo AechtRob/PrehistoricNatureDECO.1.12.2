@@ -1,0 +1,9 @@
+{
+	"parent": "lepidodendron:block/planter2",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"metal": "lepidodendron:blocks/iron_bridge",
+		"plank": "lepidodendron:blocks/golden_larch_planks"
+	}
+}
+

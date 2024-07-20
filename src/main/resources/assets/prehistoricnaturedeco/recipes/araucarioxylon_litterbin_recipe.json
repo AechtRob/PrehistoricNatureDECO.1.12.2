@@ -8,20 +8,20 @@
  ],
  "key": {
  "3": {
- "item": "lepidodendron:araucarioxylon_planks"
+ "item": "lepidodendron:araucarioxylon_wood"
  },
  "5": {
- "item": "lepidodendron:araucarioxylon_planks"
+ "item": "lepidodendron:araucarioxylon_wood"
  },
  "6": {
- "item": "lepidodendron:araucarioxylon_planks"
+ "item": "lepidodendron:araucarioxylon_wood"
  },
  "7": {
  "item": "lepidodendron:araucarioxylon_slab",
  "data": 0
  },
  "8": {
- "item": "lepidodendron:araucarioxylon_planks"
+ "item": "lepidodendron:araucarioxylon_wood"
  }
  },
  "result": {

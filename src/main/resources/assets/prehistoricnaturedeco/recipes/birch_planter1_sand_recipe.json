@@ -1,0 +1,29 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:birch_trapdoor"
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "sand"
+ },
+ "5": {
+ "item": "lepidodendron:birch_trapdoor"
+ },
+ "7": {
+ "item": "minecraft:wooden_slab",
+ "data": 2
+ }
+ },
+ "result": {
+ "item": "lepidodendron:birch_planter1_sand",
+ "count": 3
+ }
+}

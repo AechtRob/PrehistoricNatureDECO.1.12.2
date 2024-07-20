@@ -1,0 +1,11 @@
+{
+  "parent": "lepidodendron:block/planter1",
+  "textures": {
+    "dirt": "blocks/sand",
+    "side": "lepidodendron:blocks/beech_trapdoor",
+    "metal": "lepidodendron:blocks/beech_planks",
+    "plank": "lepidodendron:blocks/beech_planks"
+  }
+}
+
+

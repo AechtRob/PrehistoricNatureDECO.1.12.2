@@ -1,0 +1,29 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:taxodium_trapdoor"
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "peat"
+ },
+ "5": {
+ "item": "lepidodendron:taxodium_trapdoor"
+ },
+ "7": {
+ "item": "lepidodendron:taxodium_slab",
+ "data": 0
+ }
+ },
+ "result": {
+ "item": "lepidodendron:taxodium_planter1_peat",
+ "count": 3
+ }
+}

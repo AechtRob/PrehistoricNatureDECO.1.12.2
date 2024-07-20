@@ -1,0 +1,9 @@
+{
+	"parent": "lepidodendron:block/planter2",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"metal": "lepidodendron:blocks/zircon_block",
+		"plank": "lepidodendron:blocks/artocarpus_planks"
+	}
+}
+

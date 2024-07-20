@@ -1,0 +1,31 @@
+{
+  "group": "lepidodendron",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "3": {
+      "item": "lepidodendron:agathis_slab",
+      "data": 0
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "sand"
+    },
+    "5": {
+      "item": "lepidodendron:agathis_slab",
+      "data": 0
+    },
+    "7": {
+      "item": "lepidodendron:agathis_slab",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "lepidodendron:agathis_planter2_sand",
+    "count": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "lepidodendron:block/planter2",
+  "textures": {
+    "dirt": "lepidodendron:blocks/peat",
+    "metal": "lepidodendron:blocks/scrubby_pine_planks",
+    "plank": "lepidodendron:blocks/scrubby_pine_planks"
+  }
+}
+
+

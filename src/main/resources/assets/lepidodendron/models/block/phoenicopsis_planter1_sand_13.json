@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/sand",
+		"side": "lepidodendron:blocks/phoenicopsis_trapdoor",
+		"metal": "lepidodendron:blocks/anthracite_block",
+		"plank": "lepidodendron:blocks/phoenicopsis_planks"
+	}
+}
+

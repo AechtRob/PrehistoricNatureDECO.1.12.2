@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"side": "lepidodendron:blocks/czekanowskia_trapdoor",
+		"metal": "lepidodendron:blocks/baltic_amber",
+		"plank": "lepidodendron:blocks/czekanowskia_planks"
+	}
+}
+

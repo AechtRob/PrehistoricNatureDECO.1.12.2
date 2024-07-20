@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"side": "lepidodendron:blocks/wollemi_trapdoor",
+		"metal": "blocks/diamond_block",
+		"plank": "lepidodendron:blocks/wollemi_planks"
+	}
+}
+

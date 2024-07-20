@@ -1,0 +1,31 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:arthropitys_slab",
+ "data": 0
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "dirt"
+ },
+ "5": {
+ "item": "lepidodendron:arthropitys_slab",
+ "data": 0
+ },
+ "7": {
+ "item": "lepidodendron:arthropitys_slab",
+ "data": 0
+ }
+ },
+ "result": {
+ "item": "lepidodendron:arthropitys_planter2",
+ "count": 3
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "multipart": [
+ { "when": { "variant": 0 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_0"}
+ ]
+ },
+ { "when": { "variant": 1 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_1"}
+ ]
+ },
+ { "when": { "variant": 2 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_2" }
+ ]
+ },
+ { "when": { "variant": 3 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_3"}
+ ]
+ },
+ { "when": { "variant": 4 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_4"}
+ ]
+ },
+ { "when": { "variant": 5 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_5"}
+ ]
+ },
+ { "when": { "variant": 6 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_6"}
+ ]
+ },
+ { "when": { "variant": 7 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_7"}
+ ]
+ },
+ { "when": { "variant": 8 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_8"}
+ ]
+ },
+ { "when": { "variant": 9},
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_9"}
+ ]
+ },
+ { "when": { "variant": 10 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_10"}
+ ]
+ },
+ { "when": { "variant": 11 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_11"}
+ ]
+ },
+ { "when": { "variant": 12 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_12"}
+ ]
+ },
+ { "when": { "variant": 13 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_13"}
+ ]
+ },
+ { "when": { "variant": 14 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_14"}
+ ]
+ },
+ { "when": { "variant": 15 },
+ "apply": [
+ { "model": "lepidodendron:arid_pine_planter1_peat_15"}
+ ]
+ }
+ ]
+}

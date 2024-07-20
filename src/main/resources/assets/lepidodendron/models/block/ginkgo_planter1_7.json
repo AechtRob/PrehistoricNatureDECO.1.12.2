@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"side": "lepidodendron:blocks/ginkgo_trapdoor",
+		"metal": "lepidodendron:blocks/dominican_amber",
+		"plank": "lepidodendron:blocks/ginkgo_planks"
+	}
+}
+

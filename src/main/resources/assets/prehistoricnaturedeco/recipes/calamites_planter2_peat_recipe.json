@@ -1,0 +1,31 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:calamites_slab",
+ "data": 0
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "peat"
+ },
+ "5": {
+ "item": "lepidodendron:calamites_slab",
+ "data": 0
+ },
+ "7": {
+ "item": "lepidodendron:calamites_slab",
+ "data": 0
+ }
+ },
+ "result": {
+ "item": "lepidodendron:calamites_planter2_peat",
+ "count": 3
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "   ",
+ "345",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:oak_trapdoor"
+ },
+ "4": {
+ "type": "forge:ore_dict",
+ "ore": "peat"
+ },
+ "5": {
+ "item": "lepidodendron:oak_trapdoor"
+ },
+ "7": {
+ "item": "minecraft:wooden_slab",
+ "data": 0
+ }
+ },
+ "result": {
+ "item": "lepidodendron:oak_planter1_peat",
+ "count": 3
+ }
+}

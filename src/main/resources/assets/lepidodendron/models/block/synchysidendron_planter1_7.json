@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"side": "lepidodendron:blocks/synchysidendron_trapdoor",
+		"metal": "lepidodendron:blocks/dominican_amber",
+		"plank": "lepidodendron:blocks/synchysidendron_planks"
+	}
+}
+

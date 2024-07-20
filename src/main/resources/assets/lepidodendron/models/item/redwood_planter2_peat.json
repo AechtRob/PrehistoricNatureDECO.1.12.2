@@ -1,0 +1,10 @@
+{
+  "parent": "lepidodendron:block/planter2",
+  "textures": {
+    "dirt": "lepidodendron:blocks/peat",
+    "metal": "lepidodendron:blocks/redwood_planks",
+    "plank": "lepidodendron:blocks/redwood_planks"
+  }
+}
+
+
