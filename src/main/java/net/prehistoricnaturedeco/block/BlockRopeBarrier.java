@@ -536,7 +536,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 							te.getTileData().setInteger("variant", enumUsed);
 							if (!(dyeUsed >= 0)) { //dye can also be on the rope
 								te.markDirty();
-								worldIn.notifyBlockUpdate(pos, state, state, 3);
+								worldIn.notifyBlockUpdate(pos, state, state.withProperty(VARIANT, enumUsed), 3);
+								worldIn.markBlockRangeForRenderUpdate(pos, pos);
 								return true;
 							}
 						}
