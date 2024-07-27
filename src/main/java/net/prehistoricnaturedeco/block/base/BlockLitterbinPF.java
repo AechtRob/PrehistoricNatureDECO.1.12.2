@@ -228,6 +228,7 @@ public class BlockLitterbinPF extends Block implements ITileEntityProvider {
 
 	public static class TileEntityLitterbin extends TileEntity implements ITickable {
 
+		private int variant;
 		private int binTick;
 
 		@Override
@@ -278,6 +279,19 @@ public class BlockLitterbinPF extends Block implements ITileEntityProvider {
 				}
 				this.binTick = 0;
 			}
+		}
+
+		@Override
+		public void readFromNBT(NBTTagCompound compound) {
+			super.readFromNBT(compound);
+			this.variant = compound.getInteger("variant");
+		}
+
+		@Override
+		public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+			super.writeToNBT(compound);
+			compound.setInteger("variant", this.variant);
+			return compound;
 		}
 	}
 }

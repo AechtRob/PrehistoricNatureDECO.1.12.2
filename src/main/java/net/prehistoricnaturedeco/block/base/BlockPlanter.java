@@ -215,7 +215,7 @@ public class BlockPlanter extends Block implements ITileEntityProvider {
 
 	public static class TileEntityPlanter extends TileEntity {
 
-		private int binTick;
+		protected int variant;
 
 		@Override
 		public boolean shouldRefresh(World world, BlockPos pos, IBlockState oldState, IBlockState newSate) {
@@ -243,6 +243,18 @@ public class BlockPlanter extends Block implements ITileEntityProvider {
 			this.readFromNBT(tag);
 		}
 
+		@Override
+		public void readFromNBT(NBTTagCompound compound) {
+			super.readFromNBT(compound);
+			this.variant = compound.getInteger("variant");
+		}
+
+		@Override
+		public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+			super.writeToNBT(compound);
+			compound.setInteger("variant", this.variant);
+			return compound;
+		}
 	}
 }
 

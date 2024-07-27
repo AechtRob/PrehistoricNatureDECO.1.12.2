@@ -324,6 +324,8 @@ public class BlockBenchPF extends Block implements ITileEntityProvider {
 
 	public static class TileEntityBench extends TileEntity {
 
+		private int variant;
+
 		@Override
 		public boolean shouldRefresh(World world, BlockPos pos, IBlockState oldState, IBlockState newSate) {
 			return (oldState.getBlock() != newSate.getBlock());
@@ -347,6 +349,19 @@ public class BlockBenchPF extends Block implements ITileEntityProvider {
 		@Override
 		public void handleUpdateTag(NBTTagCompound tag) {
 			this.readFromNBT(tag);
+		}
+
+		@Override
+		public void readFromNBT(NBTTagCompound compound) {
+			super.readFromNBT(compound);
+			this.variant = compound.getInteger("variant");
+		}
+
+		@Override
+		public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+			super.writeToNBT(compound);
+			compound.setInteger("variant", this.variant);
+			return compound;
 		}
 
 	}

@@ -1,5 +1,5 @@
 
-package net.prehistoricnaturedeco.block.base;
+package net.prehistoricnaturedeco.block;
 
 import net.lepidodendron.LepidodendronSorter;
 import net.minecraft.block.Block;
@@ -11,18 +11,19 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.prehistoricnaturedeco.block.base.BlockPlanterSand;
 
 @net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement.Tag
-public class BlockMaplePlanter2 extends net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement {
-	@GameRegistry.ObjectHolder("lepidodendron:maple_planter2")
+public class BlockMaplePlanter2Sand extends net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement {
+	@GameRegistry.ObjectHolder("lepidodendron:maple_planter2_sand")
 	public static final Block block = null;
-	public BlockMaplePlanter2(net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod instance) {
-		super(instance, LepidodendronSorter.maple_planter2);
+	public BlockMaplePlanter2Sand(net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod instance) {
+		super(instance, LepidodendronSorter.maple_planter2_sand);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("lepidodendron:maple_planter2"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("lepidodendron:maple_planter2_sand"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -30,12 +31,11 @@ public class BlockMaplePlanter2 extends net.prehistoricnaturedeco.ElementsPrehis
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("lepidodendron:maple_planter2", "inventory"));
+				new ModelResourceLocation("lepidodendron:maple_planter2_sand", "inventory"));
 	}
-
-	public static class BlockCustom extends BlockPlanter {
+	public static class BlockCustom extends BlockPlanterSand {
 		public BlockCustom() {
-			setTranslationKey("pf_maple_planter2");
+			setTranslationKey("pf_maple_planter2_sand");
 		}
 	}
 

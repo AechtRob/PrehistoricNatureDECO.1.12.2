@@ -1,5 +1,5 @@
 
-package net.prehistoricnaturedeco.block.base;
+package net.prehistoricnaturedeco.block;
 
 import net.lepidodendron.LepidodendronSorter;
 import net.minecraft.block.Block;
@@ -11,6 +11,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.prehistoricnaturedeco.block.base.BlockPlanter;
 
 @net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement.Tag
 public class BlockMaplePlanter1 extends net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement {

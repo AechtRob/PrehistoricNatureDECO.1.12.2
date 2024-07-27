@@ -263,6 +263,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 										}
 									}
 									worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
+									te2.markDirty();
+									worldIn.notifyBlockUpdate(pos, state, state, 3);
 									return true;
 								}
 							}
@@ -301,6 +303,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 										}
 									}
 									worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
+									te2.markDirty();
+									worldIn.notifyBlockUpdate(pos, state, state, 3);
 									return true;
 								}
 							}
@@ -339,6 +343,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 										}
 									}
 									worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
+									te2.markDirty();
+									worldIn.notifyBlockUpdate(pos, state, state, 3);
 									return true;
 								}
 							}
@@ -377,6 +383,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 										}
 									}
 									worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
+									te2.markDirty();
+									worldIn.notifyBlockUpdate(pos, state, state, 3);
 									return true;
 								}
 							}
@@ -409,6 +417,10 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 
 										worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
 										playerIn.setHeldItem(hand, new ItemStack(ItemRope.block, 1));
+										te2.markDirty();
+										te.markDirty();
+										worldIn.notifyBlockUpdate(pos, state, state, 3);
+										worldIn.notifyBlockUpdate(pos.north(), state, state, 3);
 										return true;
 									}
 								}
@@ -436,6 +448,10 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 
 										worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
 										playerIn.setHeldItem(hand, new ItemStack(ItemRope.block, 1));
+										te2.markDirty();
+										te.markDirty();
+										worldIn.notifyBlockUpdate(pos, state, state, 3);
+										worldIn.notifyBlockUpdate(pos.south(), state, state, 3);
 										return true;
 									}
 								}
@@ -463,6 +479,10 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 
 										worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
 										playerIn.setHeldItem(hand, new ItemStack(ItemRope.block, 1));
+										te2.markDirty();
+										te.markDirty();
+										worldIn.notifyBlockUpdate(pos, state, state, 3);
+										worldIn.notifyBlockUpdate(pos.east(), state, state, 3);
 										return true;
 									}
 								}
@@ -489,6 +509,10 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 
 										worldIn.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
 										playerIn.setHeldItem(hand, new ItemStack(ItemRope.block, 1));
+										te2.markDirty();
+										te.markDirty();
+										worldIn.notifyBlockUpdate(pos, state, state, 3);
+										worldIn.notifyBlockUpdate(pos.west(), state, state, 3);
 										return true;
 									}
 								}
@@ -511,6 +535,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 							te = worldIn.getTileEntity(pos);
 							te.getTileData().setInteger("variant", enumUsed);
 							if (!(dyeUsed >= 0)) { //dye can also be on the rope
+								te.markDirty();
+								worldIn.notifyBlockUpdate(pos, state, state, 3);
 								return true;
 							}
 						}
@@ -531,8 +557,12 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 								if (te2 != null) {
 									if (te2 instanceof TileEntityRopeBarrier) {
 										te2.getTileData().setInteger("southDye", dyeUsed);
+										te2.markDirty();
+										worldIn.notifyBlockUpdate(pos.north(), state, state, 3);
 									}
 								}
+								te.markDirty();
+								worldIn.notifyBlockUpdate(pos, state, state, 3);
 								return true;
 							}
 						}
@@ -547,8 +577,12 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 								if (te2 != null) {
 									if (te2 instanceof TileEntityRopeBarrier) {
 										te2.getTileData().setInteger("northDye", dyeUsed);
+										te2.markDirty();
+										worldIn.notifyBlockUpdate(pos.south(), state, state, 3);
 									}
 								}
+								te.markDirty();
+								worldIn.notifyBlockUpdate(pos, state, state, 3);
 								return true;
 							}
 						}
@@ -563,8 +597,12 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 								if (te2 != null) {
 									if (te2 instanceof TileEntityRopeBarrier) {
 										te2.getTileData().setInteger("westDye", dyeUsed);
+										te2.markDirty();
+										worldIn.notifyBlockUpdate(pos.east(), state, state, 3);
 									}
 								}
+								te.markDirty();
+								worldIn.notifyBlockUpdate(pos, state, state, 3);
 								return true;
 							}
 						}
@@ -579,8 +617,12 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 								if (te2 != null) {
 									if (te2 instanceof TileEntityRopeBarrier) {
 										te2.getTileData().setInteger("eastDye", dyeUsed);
+										te2.markDirty();
+										worldIn.notifyBlockUpdate(pos.west(), state, state, 3);
 									}
 								}
+								te.markDirty();
+								worldIn.notifyBlockUpdate(pos, state, state, 3);
 								return true;
 							}
 						}
@@ -723,6 +765,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 					if (te != null) {
 						if (te instanceof TileEntityRopeBarrier) {
 							te.getTileData().setBoolean("north", false);
+							te.markDirty();
+							world.notifyBlockUpdate(pos, state, state, 3);
 						}
 					}
 				}
@@ -731,6 +775,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 					if (te != null) {
 						if (te instanceof TileEntityRopeBarrier) {
 							te.getTileData().setBoolean("south", false);
+							te.markDirty();
+							world.notifyBlockUpdate(pos, state, state, 3);
 						}
 					}
 				}
@@ -740,6 +786,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 					if (te != null) {
 						if (te instanceof TileEntityRopeBarrier) {
 							te.getTileData().setBoolean("east", false);
+							te.markDirty();
+							world.notifyBlockUpdate(pos, state, state, 3);
 						}
 					}
 				}
@@ -748,6 +796,8 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 					if (te != null) {
 						if (te instanceof TileEntityRopeBarrier) {
 							te.getTileData().setBoolean("west", false);
+							te.markDirty();
+							world.notifyBlockUpdate(pos, state, state, 3);
 						}
 					}
 				}
@@ -789,6 +839,20 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 
 	public static class TileEntityRopeBarrier extends TileEntity {
 
+		protected int variant;
+		protected boolean north;
+		protected boolean south;
+		protected boolean east;
+		protected boolean west;
+		protected boolean dyeNorth;
+		protected boolean dyeSouth;
+		protected boolean dyeEast;
+		protected boolean dyeWest;
+		protected int northDye;
+		protected int southDye;
+		protected int eastDye;
+		protected int westDye;
+
 		@Override
 		public boolean shouldRefresh(World world, BlockPos pos, IBlockState oldState, IBlockState newSate) {
 			return (oldState.getBlock() != newSate.getBlock());
@@ -812,7 +876,7 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 		@Override
 		public void onDataPacket(NetworkManager net, SPacketUpdateTileEntity pkt) {
 			super.onDataPacket(net, pkt);
-			handleUpdateTag(pkt.getNbtCompound());
+			this.handleUpdateTag(pkt.getNbtCompound());
 		}
 
 		@Override
@@ -825,7 +889,42 @@ public class BlockRopeBarrier extends net.prehistoricnaturedeco.ElementsPrehisto
 			return new AxisAlignedBB(pos.add(-1, 0, -1), pos.add(2, 1, 2));
 		}
 
+		@Override
+		public void readFromNBT(NBTTagCompound compound) {
+			super.readFromNBT(compound);
+			this.variant = compound.getInteger("variant");
+			this.north = compound.getBoolean("north");
+			this.south = compound.getBoolean("south");
+			this.east = compound.getBoolean("east");
+			this.west = compound.getBoolean("west");
+			this.dyeNorth = compound.getBoolean("dyeNorth");
+			this.dyeSouth = compound.getBoolean("dyeSouth");
+			this.dyeEast = compound.getBoolean("dyeEast");
+			this.dyeWest = compound.getBoolean("dyeWest");
+			this.northDye = compound.getInteger("northDye");
+			this.southDye = compound.getInteger("southDye");
+			this.eastDye = compound.getInteger("eastDye");
+			this.westDye = compound.getInteger("westDye");
+		}
 
+		@Override
+		public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+			super.writeToNBT(compound);
+			compound.setInteger("variant", this.variant);
+			compound.setBoolean("north", this.north);
+			compound.setBoolean("south", this.south);
+			compound.setBoolean("east", this.east);
+			compound.setBoolean("west", this.west);
+			compound.setBoolean("dyeNorth", this.dyeNorth);
+			compound.setBoolean("dyeSouth", this.dyeSouth);
+			compound.setBoolean("dyeEast", this.dyeEast);
+			compound.setBoolean("dyeWest", this.dyeWest);
+			compound.setInteger("northDye", this.northDye);
+			compound.setInteger("southDye", this.southDye);
+			compound.setInteger("eastDye", this.eastDye);
+			compound.setInteger("westDye", this.westDye);
+			return compound;
+		}
 	}
 }
 

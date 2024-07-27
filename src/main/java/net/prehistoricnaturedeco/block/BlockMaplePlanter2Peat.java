@@ -1,5 +1,5 @@
 
-package net.prehistoricnaturedeco.block.base;
+package net.prehistoricnaturedeco.block;
 
 import net.lepidodendron.LepidodendronSorter;
 import net.minecraft.block.Block;
@@ -11,18 +11,19 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.prehistoricnaturedeco.block.base.BlockPlanter;
 
 @net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement.Tag
-public class BlockMaplePlanter1Peat extends net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement {
-	@GameRegistry.ObjectHolder("lepidodendron:maple_planter1_peat")
+public class BlockMaplePlanter2Peat extends net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod.ModElement {
+	@GameRegistry.ObjectHolder("lepidodendron:maple_planter2_peat")
 	public static final Block block = null;
-	public BlockMaplePlanter1Peat(net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod instance) {
-		super(instance, LepidodendronSorter.maple_planter1_peat);
+	public BlockMaplePlanter2Peat(net.prehistoricnaturedeco.ElementsPrehistoricNatureDecoMod instance) {
+		super(instance, LepidodendronSorter.maple_planter2_peat);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("lepidodendron:maple_planter1_peat"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("lepidodendron:maple_planter2_peat"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -30,12 +31,12 @@ public class BlockMaplePlanter1Peat extends net.prehistoricnaturedeco.ElementsPr
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("lepidodendron:maple_planter1_peat", "inventory"));
+				new ModelResourceLocation("lepidodendron:maple_planter2_peat", "inventory"));
 	}
-
+	
 	public static class BlockCustom extends BlockPlanter {
 		public BlockCustom() {
-			setTranslationKey("pf_maple_planter1_peat");
+			setTranslationKey("pf_maple_planter2_peat");
 		}
 	}
 
