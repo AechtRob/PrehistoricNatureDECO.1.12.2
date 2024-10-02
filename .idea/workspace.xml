@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc14a4f0-ec91-4102-8b9b-f6fe101bbd30" name="Changes" comment="v.2 planters">
+    <list default="true" id="dc14a4f0-ec91-4102-8b9b-f6fe101bbd30" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/prehistoricnaturedeco/block/BlockRopeBarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/prehistoricnaturedeco/block/BlockRopeBarrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +63,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AechtRob&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AechtRob/PrehistoricNatureDECO.1.12.2.git&quot;,
+    &quot;accountId&quot;: &quot;cbc7f8fb-c2b6-48d7-ab48-84b47170ec7a&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2bSYgAHf16V55eWpp59NfP7ATSI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -75,10 +90,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.C:/Users/Rob/Documents/Games/Minecraft/Modding/PrehistoricNature/PrehistoricNature.1.12.2 DECO [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rob/Documents/Games/Minecraft/Modding/PrehistoricNature/PrehistoricNature.1.12.2 DECO/src/main/resources/assets/lepidodendron/models&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rob/Documents/Games/Minecraft/Modding/PrehistoricNature/PrehistoricNature.1.12.2 DECO/src/main/resources/assets/lepidodendron/models&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -117,6 +138,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="PrehistoricNature.1.12.2 DECO [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -138,6 +160,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="PrehistoricNature.1.12.2 DECO [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -159,6 +182,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -255,14 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722075960413</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="v.2 planters">
+      <created>1722083045477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722083045477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="v.2 (for main mod v.60)" />
-    <MESSAGE value="v.2 planters" />
     <MESSAGE value="v.2 fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.2 fixes" />
+    <MESSAGE value="v.2 planters" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.2 planters" />
   </component>
 </project>
