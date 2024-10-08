@@ -8,14 +8,14 @@
  ],
  "key": {
  "3": {
- "item": "lepidodendron:glossopteris_trapdoor"
+ "item": "lepidodendron:glossopteristrapdoor"
  },
  "4": {
  "type": "forge:ore_dict",
  "ore": "sand"
  },
  "5": {
- "item": "lepidodendron:glossopteris_trapdoor"
+ "item": "lepidodendron:glossopteristrapdoor"
  },
  "7": {
  "item": "lepidodendron:glossopterisslab",

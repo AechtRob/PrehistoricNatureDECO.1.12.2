@@ -8,14 +8,14 @@
  ],
  "key": {
  "3": {
- "item": "lepidodendron:liriodendrontrapdoor"
+ "item": "lepidodendron:liriodendron_trapdoor"
  },
  "4": {
  "type": "forge:ore_dict",
  "ore": "peat"
  },
  "5": {
- "item": "lepidodendron:liriodendrontrapdoor"
+ "item": "lepidodendron:liriodendron_trapdoor"
  },
  "7": {
  "item": "lepidodendron:liriodendron_slab",

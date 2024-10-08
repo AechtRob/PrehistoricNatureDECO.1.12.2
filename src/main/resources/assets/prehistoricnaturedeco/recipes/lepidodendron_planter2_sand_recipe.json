@@ -8,7 +8,7 @@
  ],
  "key": {
  "3": {
- "item": "lepidodendron:lepidodendron_slab",
+ "item": "lepidodendron:woodenslab",
  "data": 0
  },
  "4": {
@@ -16,11 +16,11 @@
  "ore": "sand"
  },
  "5": {
- "item": "lepidodendron:lepidodendron_slab",
+ "item": "lepidodendron:woodenslab",
  "data": 0
  },
  "7": {
- "item": "lepidodendron:lepidodendron_slab",
+ "item": "lepidodendron:woodenslab",
  "data": 0
  }
  },
