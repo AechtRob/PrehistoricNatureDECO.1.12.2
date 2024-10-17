@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc14a4f0-ec91-4102-8b9b-f6fe101bbd30" name="Changes" comment="v.2.01 Various language support">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/ru_ru.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/uk_ua.lang" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/da_dk.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/da_dk.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/fr_fr.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/fr_fr.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/ja_jp.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/ja_jp.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/zh_cn.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/prehistoricnaturedeco/lang/zh_cn.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/prehistoricnaturedeco/PrehistoricNatureDecoMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/prehistoricnaturedeco/PrehistoricNatureDecoMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/prehistoricnaturedeco/block/base/BlockBridgePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/prehistoricnaturedeco/block/base/BlockBridgePF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728901802557</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="v.2.01 Various language support">
+      <option name="closed" value="true" />
+      <created>1728914358416</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728914358416</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -53,6 +53,18 @@ public class BlockBridgePF extends BlockCompressedPowered implements ITileEntity
 		setCreativeTab(TabPrehistoricNatureDeco.tab);
 	}
 
+	@Override
+	public boolean canEntitySpawn(IBlockState state, Entity entityIn)
+	{
+		return false; //This is not the Bridge of Khazad-Dum
+	}
+
+	@Override
+	public boolean canCreatureSpawn(IBlockState state, IBlockAccess world, BlockPos pos, net.minecraft.entity.EntityLiving.SpawnPlacementType type)
+	{
+		return false; //This is not the Bridge of Khazad-Dum
+	}
+
 	@SideOnly(Side.CLIENT)
 	public int getPackedLightmapCoords(IBlockState state, IBlockAccess source, BlockPos pos) {
 		int i = source.getCombinedLight(pos, state.getLightValue(source, pos));
