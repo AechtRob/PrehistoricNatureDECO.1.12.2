@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrehistoricNature.1.12.2_DECO.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrehistoricNature.1.12.2_DECO.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrehistoricNature.1.12.2_DECO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PrehistoricNature.1.12.2_DECO.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.aechtrob.prehistoricnaturedeco.PrehistoricNature.1.12.2_DECO.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.aechtrob.prehistoricnaturedeco.PrehistoricNature.1.12.2_DECO.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.aechtrob.prehistoricnaturedeco.PrehistoricNature.1.12.2_DECO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.aechtrob.prehistoricnaturedeco.PrehistoricNature.1.12.2_DECO.test.iml" />
+    </modules>
+  </component>
+</project>

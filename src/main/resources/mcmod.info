@@ -3,7 +3,7 @@
     "modid": "prehistoricnaturedeco",
     "name": "Prehistoric Nature Decorations",
     "description": "Adds some more complex decoration blocks to Prehistoric Nature",
-    "version": "2.02",
+    "version": "3.0",
     "credits": "Aecht Rob",
     "logoFile": "assets/prehistoricnaturedeco/textures/packlogo.png",
     "mcversion": "1.12.2",
@@ -12,9 +12,9 @@
     "authorList": [
       "Aecht Rob"
     ],
-    "dependencies": ["lepidodendron@[60.0,)"],
+    "dependencies": ["lepidodendron@[62.0,)"],
     "dependants": [],
-    "requiredMods": ["lepidodendron@[60.0,)"],
+    "requiredMods": ["lepidodendron@[62.0,)"],
     "useDependencyInformation": "true"
   }
 ]
