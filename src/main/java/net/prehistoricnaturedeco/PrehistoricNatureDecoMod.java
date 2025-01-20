@@ -30,7 +30,7 @@ import java.util.function.Supplier;
 public class PrehistoricNatureDecoMod {
 	public static final String MODID = "prehistoricnaturedeco";
 	public static final String NAME = "Prehistoric Nature Decorations";
-	public static final String VERSION = "2.02";
+	public static final String VERSION = "3.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("pndeco:a");
     @SidedProxy(clientSide = "net.prehistoricnaturedeco.ClientProxyPrehistoricNatureDecoMod", serverSide = "net.prehistoricnaturedeco.ServerProxyPrehistoricNatureDecoMod")
 	public static IProxyPrehistoricNatureDecoMod proxy;
@@ -55,7 +55,7 @@ public class PrehistoricNatureDecoMod {
 	public void init(FMLInitializationEvent event) {
 		elements.getElements().forEach(element -> element.init(event));
 		proxy.init(event);
-
+		MinecraftForge.EVENT_BUS.register(new DecoModEventHandler());
 	}
 
 	@Mod.EventHandler
