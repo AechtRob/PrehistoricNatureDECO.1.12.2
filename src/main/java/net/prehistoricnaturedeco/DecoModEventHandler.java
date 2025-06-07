@@ -12,6 +12,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.prehistoricnaturedeco.block.base.BlockBenchPF;
+import net.prehistoricnaturedeco.block.entity.EntitySittableBench;
 
 import java.util.List;
 
@@ -40,68 +41,10 @@ public class DecoModEventHandler {
             if (state.getBlock() instanceof BlockBenchPF)
             {
                 //List<SeatStair> seats = worldIn.getEntitiesWithinAABB(SeatStair.class, new AxisAlignedBB(pos, pos.add(1, 1, 1)));
-                SeatStair seat = new SeatStair(worldIn, pos);
+                EntitySittableBench seat = new EntitySittableBench(worldIn, pos);
                 worldIn.spawnEntity(seat);
                 player.startRiding(seat);
                 event.setCanceled(true);
-            }
-        }
-
-        public static class SeatStair extends Entity
-        {
-            public SeatStair(World worldIn, BlockPos pos)
-            {
-                this (worldIn);
-                setPosition(pos.getX() + 0.5D, pos.getY() + 0.14D, pos.getZ() + 0.5D);
-            }
-
-            public SeatStair(World worldIn)
-            {
-                super(worldIn);
-                setSize(0.0F, 0.0F);
-            }
-
-            @Override
-            public void onUpdate()
-            {
-                super.onUpdate();
-                BlockPos pos = getPosition();
-                if (!(getEntityWorld().getBlockState(pos).getBlock() instanceof BlockBenchPF))
-                {
-                    setDead();
-                    return;
-                }
-
-                List<Entity> passengers = getPassengers();
-                if(passengers.isEmpty())
-                {
-                    setDead();
-                }
-                for (Entity entity : passengers)
-                {
-                    if (entity.isSneaking())
-                    {
-                        setDead();
-                    }
-                }
-            }
-
-            @Override
-            protected void entityInit()
-            {
-
-            }
-
-            @Override
-            protected void readEntityFromNBT(NBTTagCompound compound)
-            {
-
-            }
-
-            @Override
-            protected void writeEntityToNBT(NBTTagCompound compound)
-            {
-
             }
         }
     }

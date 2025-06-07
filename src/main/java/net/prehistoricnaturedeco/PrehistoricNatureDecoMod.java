@@ -1,9 +1,11 @@
 package net.prehistoricnaturedeco;
 
+import net.lepidodendron.LepidodendronMod;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,10 +21,12 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.common.registry.EntityEntry;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.registry.VillagerRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.prehistoricnaturedeco.block.entity.EntitySittableBench;
 
 import java.util.function.Supplier;
 
@@ -30,7 +34,7 @@ import java.util.function.Supplier;
 public class PrehistoricNatureDecoMod {
 	public static final String MODID = "prehistoricnaturedeco";
 	public static final String NAME = "Prehistoric Nature Decorations";
-	public static final String VERSION = "3.0";
+	public static final String VERSION = "3.01";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("pndeco:a");
     @SidedProxy(clientSide = "net.prehistoricnaturedeco.ClientProxyPrehistoricNatureDecoMod", serverSide = "net.prehistoricnaturedeco.ServerProxyPrehistoricNatureDecoMod")
 	public static IProxyPrehistoricNatureDecoMod proxy;
@@ -48,6 +52,11 @@ public class PrehistoricNatureDecoMod {
 		elements.preInit(event);
 		MinecraftForge.EVENT_BUS.register(elements);
 		elements.getElements().forEach(element -> element.preInit(event));
+
+		EntityRegistry.registerModEntity(new ResourceLocation(LepidodendronMod.MODID + ":prehistoric_flora_bench_entity"),
+				EntitySittableBench.class, "prehistoric_flora_bench_entity", 1,
+				LepidodendronMod.instance, 16, 1, true);
+
 		proxy.preInit(event);
 	}
 

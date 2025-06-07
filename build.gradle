@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.12.2-3.0'
+version = '1.12.2-3.01'
 group = 'com.github.aechtrob.prehistoricnaturedeco' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'prehistoricnaturedeco'
 
@@ -88,7 +88,7 @@ dependencies {
 
     //compile "net.ilexiconn:llibrary:1.7.19-1.12.2"
 
-    compile files('libs/lepidodendron-1.12.2-62.0-ALPHA.jar')
+    compile files('libs/lepidodendron-1.12.2-63.0.jar')
 
     //compile "vazkii.patchouli:Patchouli:1.0-21.4"
 
