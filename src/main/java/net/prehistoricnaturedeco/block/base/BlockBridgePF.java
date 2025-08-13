@@ -51,6 +51,7 @@ public class BlockBridgePF extends BlockCompressedPowered implements ITileEntity
 		setLightOpacity(0);
 		//setLightLevel(0.5F);
 		setCreativeTab(TabPrehistoricNatureDeco.tab);
+		setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 	}
 
 	@Override
