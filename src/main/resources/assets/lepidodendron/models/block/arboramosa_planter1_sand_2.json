@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/sand",
+		"side": "lepidodendron:blocks/arboramosa_trapdoor",
+		"metal": "blocks/gold_block",
+		"plank": "lepidodendron:blocks/arboramosa_planks"
+	}
+}
+

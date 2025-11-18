@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"side": "lepidodendron:blocks/woodworthia_trapdoor",
+		"metal": "lepidodendron:blocks/iron_bridge",
+		"plank": "lepidodendron:blocks/woodworthia_planks"
+	}
+}
+

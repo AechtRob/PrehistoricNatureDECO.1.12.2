@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/dirt",
+		"side": "lepidodendron:blocks/leptophloeum_trapdoor",
+		"metal": "lepidodendron:blocks/salt_block",
+		"plank": "lepidodendron:blocks/leptophloeum_planks"
+	}
+}
+

@@ -1,0 +1,31 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "3 5",
+ "6 8",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:albertia_planks"
+ },
+ "5": {
+ "item": "lepidodendron:albertia_planks"
+ },
+ "6": {
+ "item": "lepidodendron:albertia_planks"
+ },
+ "7": {
+ "item": "lepidodendron:albertia_slab",
+ "data": 0
+ },
+ "8": {
+ "item": "lepidodendron:albertia_planks"
+ }
+ },
+ "result": {
+ "item": "lepidodendron:albertia_litterbin",
+ "count": 4
+ }
+}

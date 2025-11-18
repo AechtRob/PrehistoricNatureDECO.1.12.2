@@ -1,0 +1,10 @@
+{
+  "parent": "lepidodendron:block/planter2",
+  "textures": {
+    "dirt": "blocks/sand",
+    "metal": "lepidodendron:blocks/biarmobaiera_planks",
+    "plank": "lepidodendron:blocks/biarmobaiera_planks"
+  }
+}
+
+

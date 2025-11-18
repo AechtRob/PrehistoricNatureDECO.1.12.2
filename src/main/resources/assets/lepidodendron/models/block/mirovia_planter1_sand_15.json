@@ -1,0 +1,10 @@
+{
+	"parent": "lepidodendron:block/planter1",
+	"textures": {
+		"dirt": "blocks/sand",
+		"side": "lepidodendron:blocks/mirovia_trapdoor",
+		"metal": "lepidodendron:blocks/sulphur_block",
+		"plank": "lepidodendron:blocks/mirovia_planks"
+	}
+}
+

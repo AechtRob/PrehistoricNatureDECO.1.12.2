@@ -1,0 +1,9 @@
+{
+	"parent": "lepidodendron:block/planter2",
+	"textures": {
+		"dirt": "lepidodendron:blocks/peat",
+		"metal": "blocks/quartz_block_side",
+		"plank": "lepidodendron:blocks/schilderia_planks"
+	}
+}
+

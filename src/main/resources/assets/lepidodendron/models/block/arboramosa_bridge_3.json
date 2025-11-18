@@ -1,0 +1,7 @@
+{
+ "parent": "lepidodendron:block/bridge",
+ "textures": {
+ "wood": "lepidodendron:blocks/arboramosa_planks",
+ "metal": "lepidodendron:blocks/zircon_block"
+ }
+}

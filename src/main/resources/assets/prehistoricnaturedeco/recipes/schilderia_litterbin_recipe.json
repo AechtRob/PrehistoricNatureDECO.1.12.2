@@ -1,0 +1,31 @@
+{
+ "group": "lepidodendron",
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+ "3 5",
+ "6 8",
+ " 7 "
+ ],
+ "key": {
+ "3": {
+ "item": "lepidodendron:schilderia_planks"
+ },
+ "5": {
+ "item": "lepidodendron:schilderia_planks"
+ },
+ "6": {
+ "item": "lepidodendron:schilderia_planks"
+ },
+ "7": {
+ "item": "lepidodendron:schilderia_slab",
+ "data": 0
+ },
+ "8": {
+ "item": "lepidodendron:schilderia_planks"
+ }
+ },
+ "result": {
+ "item": "lepidodendron:schilderia_litterbin",
+ "count": 4
+ }
+}
